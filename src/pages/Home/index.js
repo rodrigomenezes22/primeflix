@@ -24,8 +24,8 @@ function Home() {
             // console.log(response.data.results.slice(0,10));
             setFilmes(response.data.results.slice(0,10));
             setLoading(false);
-            }).catch(()=>{
-                console.log("Erro ao carregar.")
+            }).catch((error)=>{
+                console.log("Erro ao carregar." + error)
             })
 
 
