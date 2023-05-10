@@ -5,8 +5,11 @@ import Filme from "./pages/Filme";
 import Header from "./components/Header";
 import Erro from "./pages/Erro";
 import Favoritos from "./pages/Favoritos";
+import Search from "./pages/Search";
+
 
 function RoutesApp() {
+
     return (
     <BrowserRouter>
         <Header />
@@ -14,6 +17,7 @@ function RoutesApp() {
             <Route path="/" element={ <Home /> } />
             <Route path="/filme/:id" element={ <Filme /> } />
             <Route path="/favoritos" element={ <Favoritos /> } />
+            <Route path="/search-results/:search" element={ <Search /> } />
             <Route path="*" element={ <Erro /> } />
         </Routes>
     </BrowserRouter>

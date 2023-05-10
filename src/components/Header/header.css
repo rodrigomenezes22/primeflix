@@ -15,6 +15,13 @@ header {
     padding-left: 2rem;
 }
 
+.logo-button {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+
 .favoritos {
     cursor: pointer;
     background-color: white;
@@ -23,4 +30,41 @@ header {
     text-decoration: none;
     color: black;
     margin-right: 1rem;
+}
+
+form {
+    width: 100%;
+}
+
+.search-form {
+    padding: 10px;
+    border-radius: 8px 0px 0px 8px;
+    width: 60%;
+}
+
+.search-button {
+    padding: 10px;
+    border-radius: 0px 8px 8px 0px;
+    width: 40%;
+}
+
+.searchbar {
+    display: block;
+    min-width: 300px;
+}
+
+@media only screen and ( max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0px;
+        row-gap: 10px;
+    }
+
+    .searchbar {
+        width: 90%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
 }

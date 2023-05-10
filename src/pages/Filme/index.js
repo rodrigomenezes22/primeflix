@@ -16,7 +16,6 @@ function Filme() {
 
   const navigate = useNavigate();
 
-  console.log(id);
   
 
 
@@ -30,7 +29,7 @@ function Filme() {
                 page: 1,
             }
         }).then((response) => {
-          console.log(response.data);
+          // console.log(response.data);
           setFilme(response.data);
           setLoading(false);
         }).catch(()=> {
