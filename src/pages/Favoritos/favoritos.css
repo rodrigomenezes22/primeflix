@@ -17,12 +17,13 @@
 
 .meus-filmes ul {
     list-style: none;
-    width: 720px;
+    max-width: 720px;
+    width: 100%;
 }
 
 .meus-filmes ul li {
     display: flex;
-    width: 720px;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 14px;
