@@ -33,9 +33,9 @@ function Favoritos() {
       {filmes.map((filme)=> {
         return (
             <li key={filme.id}>
-                <span>{filme.title}</span>
+                <p>{filme.title}</p>
                 <div>
-                    <Link to={`/filme/${filme.id}`}>Ver Detalhes</Link>
+                    <Link to={`/filme/${filme.id}`}>+&nbsp;Detalhes</Link>
                     <button onClick={() => handleExcluir(filme.id) }>Excluir</button>
                 </div>
             </li>

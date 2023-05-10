@@ -11,8 +11,8 @@
 
 }
 
-.meus-filmes span {
-    font-size: 18px;
+.meus-filmes p {
+    font-size: 14px;
 }
 
 .meus-filmes ul {
@@ -26,7 +26,8 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 14px;
+    margin-bottom: 16px;
+    padding: 0px .2rem;
 
 }
 
@@ -38,6 +39,20 @@
 
 .meus-filmes a {
     text-decoration: none;
-    color: #116FEB;
+    color: white;
     margin-right: 14px;
+    background-color: #116FEB;
+    padding: .3rem;
+    border-radius: 4px;
+    font-size: .9rem;
+}
+
+.meus-filmes button {
+    text-decoration: none;
+    color: white;
+    margin-right: 4px;
+    background-color: #116FEB;
+    padding: .3rem;
+    border-radius: 4px;
+    font-size: .9rem;
 }

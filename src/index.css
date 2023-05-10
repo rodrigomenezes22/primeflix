@@ -2,6 +2,7 @@
   margin: 0px;
   border: 0px;
   box-sizing: border-box;
+  padding: 0px;
 }
 
 body {
@@ -14,4 +15,11 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+@media only screen and (max-width: 768px) {
+  .lista-filmes article strong { 
+    font-size: 1.2rem;
+  }
+  
 }
